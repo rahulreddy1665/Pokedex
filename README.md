@@ -1,79 +1,76 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<h1 align="center">
+  <img alt="Pokedex" src="https://ik.imagekit.io/hwyksvj4iv/pokedex_N_WgWrJK0s.png" width="250px" />
+</h1>
 
-# Getting Started
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/rahulreddy1665/Pokedex">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rahulreddy1665/Pokedex">
+  <img alt="Stars" src="https://img.shields.io/github/stars/rahulreddy1665/Pokedex">
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rahulreddy1665/Pokedex">
+</p>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<p align="center">
+  <a href="#page_with_curl-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#hammer-technologies">Technologies</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#books-requirements">Requirements</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#thought_balloon-inspiration">Inspiration</a>
+</p>
 
-## Step 1: Start the Metro Server
+<h1 align="center">
+  <img alt="Home" src="https://res.cloudinary.com/matheuspires/image/upload/v1608076168/home_imjh7b.gif" width="400" />
+  <img alt="Pokedex" src="https://res.cloudinary.com/matheuspires/image/upload/v1608076006/pokemon_ismsal.gif" width="400" />
+</h1>
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## :page_with_curl: About
+This repository contains a monorepo of the Pokedex app.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+The Pokedex is an app which the user can view a list of Pokemons, search and view the details of a specific Pokemon. To get the Pokemons data it was used the [PokéAPI](https://pokeapi.co/).
 
-```bash
-# using npm
-npm start
+The main goal with this project was to know and learn hot the animations and gestures work on React Native. In order to do that it was used mainly the [Animated API](https://reactnative.dev/docs/animated) from React Native.
 
-# OR using Yarn
-yarn start
+## :hammer: Technologies
+
+This project was developed with the following technologies:
+
+
+- [React Native](https://reactnative.dev/)
+- [Javascript](https://devdocs.io/javascript/)
+- [React Navigation](https://reactnavigation.org/)
+- [React Native Gesture Handler](https://kmagiera.github.io/react-native-gesture-handler/)
+- [React Navigation Shared Element](https://github.com/IjzerenHein/react-navigation-shared-element)
+- [Axios](https://github.com/axios/axios)
+- [Styled Components](https://styled-components.com/)
+- [react-native-vector-icons](https://www.npmjs.com/package/react-native-vector-icons)
+- [VS Code](https://code.visualstudio.com/) with [EditorConfig](https://editorconfig.org/), [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)
+
+## :books: Requirements
+- To have [**Git**](https://git-scm.com/) installed to clone the repository.
+- To have [**Node.js**](https://nodejs.org/en/) installed.
+- An iOS or Android device or emulator.
+
+## :rocket: Getting started
+``` bash
+  # Clone the repository:
+  $ https://github.com/rahulreddy1665/pokedex
+
+  # Enter directory:
+  $ cd pokedex
+  
+  # Install dependencies:
+  $ npm i
 ```
 
-## Step 2: Start your Application
+## :iphone: Running for IOS
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+  $ npx react-native run-ios
 
-### For Android
+## :iphone: Running for Android
 
-```bash
-# using npm
-npm run android
+  $ npx react-native run-android
 
-# OR using Yarn
-yarn android
-```
+# :thought_balloon: Inspiration
+- Design inspired by [Pokedex App design](https://dribbble.com/shots/6563578-Pokedex-App-Animation) mabe by [Matheus Pires](https://github.com/MatheusPires99/pokedex/).
 
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Made with ❤️ by rahulreddy1665 👋🏻 [Get in touch!](https://github.com/rahulreddy1665)
